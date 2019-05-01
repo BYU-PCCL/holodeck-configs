@@ -1,0 +1,66 @@
+{
+    "name": "default",
+    "world": "UrbanCity",
+    "agents":[
+        {
+            "agent_name": "uav0",
+            "agent_type": "UavAgent",
+            "sensors": [
+                {
+                    "sensor_name": "RGBCamera",
+                    "sensor_type": "RGBCamera",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+                {
+                    "sensor_name": "LocationSensor",
+                    "sensor_type": "LocationSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+				{
+                    "sensor_name": "OrientationSensor",
+                    "sensor_type": "OrientationSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+                {
+                    "sensor_name": "VelocitySensor",
+                    "sensor_type": "VelocitySensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+				{
+                    "sensor_name": "CollisionSensor",
+                    "sensor_type": "CollisionSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+				{
+                    "sensor_name": "IMUSensor",
+                    "sensor_type": "IMUSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                }
+            ],
+            "control_scheme": 0,
+            "location": [0.0, 0.0, 0.0],
+            "rotation": [0.0, 0.0, 0.0]
+        }
+    ],
+
+    "window_width":  1280,
+    "window_height": 720
+}

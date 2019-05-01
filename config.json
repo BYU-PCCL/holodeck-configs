@@ -1,0 +1,36 @@
+{
+   "name":"DefaultWorlds",
+   "platform":"Linux",
+   "version":"0.1.0",
+   "path":"LinuxNoEditor/Holodeck/Binaries/Linux/Holodeck",
+   "worlds":[
+      {
+         "name":"AndroidPlayground",
+         "pre_start_steps":2
+      },
+      {
+         "name":"CyberPunkCity",
+         "pre_start_steps":2
+      },
+      {
+         "name":"EuropeanForest",
+         "pre_start_steps":2
+      },
+      {
+         "name":"InfiniteForest",
+         "pre_start_steps":50
+      },
+      {
+         "name":"MazeWorld",
+         "pre_start_steps":2
+      },
+      {
+         "name":"RedwoodForest",
+         "pre_start_steps":2
+      },
+      {
+         "name":"UrbanCity",
+         "pre_start_steps":2
+      }
+   ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "default",
+    "world": "MazeWorld",
+    "agents":[
+        {
+            "agent_name": "sphere0",
+            "agent_type": "SphereAgent",
+            "sensors": [
+                {
+                    "sensor_name": "RGBCamera",
+                    "sensor_type": "RGBCamera",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+                {
+                    "sensor_name": "LocationSensor",
+                    "sensor_type": "LocationSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+				{
+                    "sensor_name": "OrientationSensor",
+                    "sensor_type": "OrientationSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                }
+            ],
+            "control_scheme": 0,
+            "location": [0.0, 0.0, -36.119823],
+            "rotation": [0.0, 0.0, 0.0]
+        }
+    ],
+
+    "window_width":  1280,
+    "window_height": 720
+}
