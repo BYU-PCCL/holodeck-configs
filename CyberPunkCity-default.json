@@ -53,6 +53,19 @@
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {}
+                },
+				{
+                    "sensor_name": "FollowTask",
+                    "sensor_type": "FollowTask",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {
+                        "OnlyWithinSight": true,
+                        "FOVRadians": 1.5,
+                        "MinDistance": 100,
+                        "TargetHeight": 1
+                    }
                 }
             ],
             "control_scheme": 0,

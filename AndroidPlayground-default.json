@@ -30,7 +30,7 @@
                     "socket": "",
                     "configuration": {}
                 },
-		{
+		        {
                     "sensor_name": "IMUSensor",
                     "sensor_type": "IMUSensor",
                     "location": [0.0, 0.0, 0.0],
@@ -62,13 +62,25 @@
                     "socket": "",
                     "configuration": {}
                 },
-		{
+		        {
                     "sensor_name": "PressureSensor",
                     "sensor_type": "PressureSensor",
                     "location": [0.0, 0.0, 0.0],
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {}
+                },
+				{
+                    "sensor_name": "DistanceTask",
+                    "sensor_type": "DistanceTask",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {
+                        "Interval": 1,
+                        "GoalDistance": 1,
+                        "MaximizeDistance": false 
+                    }
                 }
             ],
             "control_scheme": 0,

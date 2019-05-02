@@ -53,6 +53,18 @@
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {}
+                },
+				{
+                    "sensor_name": "DistanceTask",
+                    "sensor_type": "DistanceTask",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {
+                        "Interval": 5,
+                        "GoalDistance": 500,
+                        "MaximizeDistance": true 
+                    }
                 }
             ],
             "control_scheme": 0,
