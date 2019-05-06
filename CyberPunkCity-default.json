@@ -7,59 +7,25 @@
             "agent_type": "UavAgent",
             "sensors": [
                 {
-                    "sensor_name": "RGBCamera",
-                    "sensor_type": "RGBCamera",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "RGBCamera"
                 },
                 {
-                    "sensor_name": "LocationSensor",
-                    "sensor_type": "LocationSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "LocationSensor"
                 },
 				{
-                    "sensor_name": "OrientationSensor",
-                    "sensor_type": "OrientationSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "OrientationSensor"
                 },
                 {
-                    "sensor_name": "VelocitySensor",
-                    "sensor_type": "VelocitySensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "VelocitySensor"
                 },
 				{
-                    "sensor_name": "CollisionSensor",
-                    "sensor_type": "CollisionSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "CollisionSensor"
                 },
 				{
-                    "sensor_name": "IMUSensor",
-                    "sensor_type": "IMUSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "IMUSensor"
                 },
 				{
-                    "sensor_name": "FollowTask",
                     "sensor_type": "FollowTask",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
                     "configuration": {
                         "OnlyWithinSight": true,
                         "FOVRadians": 1.5,
@@ -77,12 +43,7 @@
             "agent_type": "NavAgent",
             "sensors": [
                 {
-                    "sensor_name": "LocationSensor",
-                    "sensor_type": "LocationSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "LocationSensor"
                 }
             ],
             "control_scheme": 0,

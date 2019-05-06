@@ -7,35 +7,16 @@
             "agent_type": "SphereAgent",
             "sensors": [
                 {
-                    "sensor_name": "RGBCamera",
-                    "sensor_type": "RGBCamera",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "RGBCamera"
                 },
                 {
-                    "sensor_name": "LocationSensor",
-                    "sensor_type": "LocationSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "LocationSensor"
                 },
 				{
-                    "sensor_name": "OrientationSensor",
-                    "sensor_type": "OrientationSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
+                    "sensor_type": "OrientationSensor"
                 },
 				{
-                    "sensor_name": "DistanceTask",
                     "sensor_type": "DistanceTask",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
                     "configuration": {
                         "DistanceActor": "GoalBuilding",
                         "Interval": 5,
