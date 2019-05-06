@@ -7,7 +7,8 @@
             "agent_type": "AndroidAgent",
             "sensors": [
                 {
-                    "sensor_type": "RGBCamera"
+                    "sensor_type": "RGBCamera",
+                    "socket": "CameraSocket"
                 },
                 {
                     "sensor_type": "LocationSensor"
