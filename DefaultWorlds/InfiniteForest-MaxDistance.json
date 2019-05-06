@@ -1,6 +1,6 @@
 {
-    "name": "default",
-    "world": "UrbanCity",
+    "name": "MaxDistance",
+    "world": "InfiniteForest",
     "agents":[
         {
             "agent_name": "uav0",
@@ -62,7 +62,7 @@
                     "socket": "",
                     "configuration": {
                         "Interval": 5,
-                        "GoalDistance": 500,
+                        "GoalDistance": 1000,
                         "MaximizeDistance": true 
                     }
                 }

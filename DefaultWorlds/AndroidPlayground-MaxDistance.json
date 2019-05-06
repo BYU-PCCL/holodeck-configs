@@ -1,17 +1,17 @@
 {
-    "name": "default",
-    "world": "RedwoodForest",
+    "name": "MaxDistance",
+    "world": "AndroidPlayground",
     "agents":[
         {
-            "agent_name": "uav0",
-            "agent_type": "UavAgent",
+            "agent_name": "android0",
+            "agent_type": "AndroidAgent",
             "sensors": [
                 {
                     "sensor_name": "RGBCamera",
                     "sensor_type": "RGBCamera",
                     "location": [0.0, 0.0, 0.0],
                     "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
+                    "socket": "CameraSocket",
                     "configuration": {}
                 },
                 {
@@ -30,7 +30,15 @@
                     "socket": "",
                     "configuration": {}
                 },
-                {
+		        {
+                    "sensor_name": "IMUSensor",
+                    "sensor_type": "IMUSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+				{
                     "sensor_name": "VelocitySensor",
                     "sensor_type": "VelocitySensor",
                     "location": [0.0, 0.0, 0.0],
@@ -39,16 +47,24 @@
                     "configuration": {}
                 },
 				{
-                    "sensor_name": "CollisionSensor",
-                    "sensor_type": "CollisionSensor",
+                    "sensor_name": "JointRotationSensor",
+                    "sensor_type": "JointRotationSensor",
                     "location": [0.0, 0.0, 0.0],
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {}
                 },
-				{
-                    "sensor_name": "IMUSensor",
-                    "sensor_type": "IMUSensor",
+                {
+                    "sensor_name": "RelativeSkeletalPositionSensor",
+                    "sensor_type": "RelativeSkeletalPositionSensor",
+                    "location": [0.0, 0.0, 0.0],
+                    "rotation": [0.0, 0.0, 0.0],
+                    "socket": "",
+                    "configuration": {}
+                },
+		        {
+                    "sensor_name": "PressureSensor",
+                    "sensor_type": "PressureSensor",
                     "location": [0.0, 0.0, 0.0],
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
@@ -61,9 +77,9 @@
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {
-                        "Interval": 5,
-                        "GoalDistance": 1000,
-                        "MaximizeDistance": true 
+                        "Interval": 1,
+                        "GoalDistance": 1,
+                        "MaximizeDistance": false 
                     }
                 }
             ],
@@ -72,7 +88,6 @@
             "rotation": [0.0, 0.0, 0.0]
         }
     ],
-
     "window_width":  1280,
     "window_height": 720
 }
