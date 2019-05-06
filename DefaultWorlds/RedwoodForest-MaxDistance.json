@@ -1,6 +1,6 @@
 {
-    "name": "default",
-    "world": "CyberPunkCity",
+    "name": "MaxDistance",
+    "world": "RedwoodForest",
     "agents":[
         {
             "agent_name": "uav0",
@@ -55,39 +55,21 @@
                     "configuration": {}
                 },
 				{
-                    "sensor_name": "FollowTask",
-                    "sensor_type": "FollowTask",
+                    "sensor_name": "DistanceTask",
+                    "sensor_type": "DistanceTask",
                     "location": [0.0, 0.0, 0.0],
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {
-                        "OnlyWithinSight": true,
-                        "FOVRadians": 1.5,
-                        "MinDistance": 100,
-                        "TargetHeight": 1
+                        "Interval": 5,
+                        "GoalDistance": 1000,
+                        "MaximizeDistance": true 
                     }
                 }
             ],
             "control_scheme": 0,
             "location": [0.0, 0.0, 0.0],
             "rotation": [0.0, 0.0, 0.0]
-        },
-		{
-            "agent_name": "nav0",
-            "agent_type": "NavAgent",
-            "sensors": [
-                {
-                    "sensor_name": "LocationSensor",
-                    "sensor_type": "LocationSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
-                }
-            ],
-            "control_scheme": 0,
-            "location": [150.3, 110.9, -1.6],
-            "rotation": [0.0, 0.0, -149.999725]
         }
     ],
 

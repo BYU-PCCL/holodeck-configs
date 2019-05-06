@@ -1,10 +1,10 @@
 {
-    "name": "default",
-    "world": "InfiniteForest",
+    "name": "MaxDistance",
+    "world": "MazeWorld",
     "agents":[
         {
-            "agent_name": "uav0",
-            "agent_type": "UavAgent",
+            "agent_name": "sphere0",
+            "agent_type": "SphereAgent",
             "sensors": [
                 {
                     "sensor_name": "RGBCamera",
@@ -30,30 +30,6 @@
                     "socket": "",
                     "configuration": {}
                 },
-                {
-                    "sensor_name": "VelocitySensor",
-                    "sensor_type": "VelocitySensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
-                },
-				{
-                    "sensor_name": "CollisionSensor",
-                    "sensor_type": "CollisionSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
-                },
-				{
-                    "sensor_name": "IMUSensor",
-                    "sensor_type": "IMUSensor",
-                    "location": [0.0, 0.0, 0.0],
-                    "rotation": [0.0, 0.0, 0.0],
-                    "socket": "",
-                    "configuration": {}
-                },
 				{
                     "sensor_name": "DistanceTask",
                     "sensor_type": "DistanceTask",
@@ -61,6 +37,7 @@
                     "rotation": [0.0, 0.0, 0.0],
                     "socket": "",
                     "configuration": {
+                        "DistanceActor": "GoalBuilding",
                         "Interval": 5,
                         "GoalDistance": 1000,
                         "MaximizeDistance": true 
@@ -68,7 +45,7 @@
                 }
             ],
             "control_scheme": 0,
-            "location": [0.0, 0.0, 0.0],
+            "location": [0.0, 0.0, -36.119823],
             "rotation": [0.0, 0.0, 0.0]
         }
     ],
