@@ -22,7 +22,7 @@
                         "DistanceActor": "GoalBuilding",
                         "Interval": 5,
                         "GoalDistance": 1000,
-                        "MaximizeDistance": true 
+                        "MaximizeDistance": false 
                     }
                 }
             ],
