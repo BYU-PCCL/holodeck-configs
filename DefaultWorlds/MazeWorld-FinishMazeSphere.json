@@ -1,5 +1,5 @@
 {
-    "name": "MaxDistance",
+    "name": "FinishMazeSphere",
     "world": "MazeWorld",
     "agents":[
         {
@@ -13,10 +13,10 @@
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+		{
                     "sensor_type": "OrientationSensor"
                 },
-				{
+		{
                     "sensor_type": "DistanceTask",
                     "configuration": {
                         "DistanceActor": "GoalBuilding",
