@@ -40,7 +40,7 @@
                     }
                 }
             ],
-            "control_scheme": 0,
+            "control_scheme": 1,
             "location": [0.0, 0.0, 0.0],
             "rotation": [0.0, 0.0, 0.0]
         }
