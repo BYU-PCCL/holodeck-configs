@@ -3,18 +3,6 @@
     "world": "CyberPunkCity",
     "agents":[
         {
-            "agent_name": "nav0",
-            "agent_type": "NavAgent",
-            "sensors": [
-                {
-                    "sensor_type": "LocationSensor"
-                }
-            ],
-            "control_scheme": 0,
-            "location": [150.3, -110.9, -1.6],
-            "rotation": [0.0, 0.0, -149.999725]
-        },
-        {
             "agent_name": "uav0",
             "agent_type": "UavAgent",
             "sensors": [
@@ -36,11 +24,33 @@
                 },
 				{
                     "sensor_type": "IMUSensor"
+                },
+                {
+                    "sensor_type": "FollowTask",
+                    "configuration": {
+                        "ToFollow": "nav0",
+                        "OnlyWithinSight": true,
+                        "FOVRadians": 1.6,
+                        "TargetHeight": 1,
+                        "MinDistance": 100000
+                    }
                 }
             ],
             "control_scheme": 1,
             "location": [0.0, 0.0, 0.0],
             "rotation": [0.0, 0.0, 0.0]
+        },
+        {
+            "agent_name": "nav0",
+            "agent_type": "NavAgent",
+            "sensors": [
+                {
+                    "sensor_type": "LocationSensor"
+                }
+            ],
+            "control_scheme": 0,
+            "location": [150.3, -110.9, -1.6],
+            "rotation": [0.0, 0.0, -149.999725]
         }
     ],
 
