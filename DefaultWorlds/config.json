@@ -14,7 +14,7 @@
       },
       {
          "name" :"EuropeanForest",
-         "pre_start_steps": 2
+         "pre_start_steps": 8
       },
       {
          "name": "InfiniteForest",
