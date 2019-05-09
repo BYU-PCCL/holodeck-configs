@@ -1,6 +1,7 @@
 {
     "name": "WalkingAndroid",
     "world": "InfiniteForest",
+    "main_agent": "android0",
     "agents":[
         {
             "agent_name": "android0",

@@ -1,6 +1,7 @@
 {
     "name": "FinishMazeSphere",
     "world": "MazeWorld",
+    "main_agent": "sphere0",
     "agents":[
         {
             "agent_name": "sphere0",

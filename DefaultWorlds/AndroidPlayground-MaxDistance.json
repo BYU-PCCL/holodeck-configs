@@ -1,6 +1,7 @@
 {
     "name": "MaxDistance",
     "world": "AndroidPlayground",
+    "main_agent": "android0",
     "agents":[
         {
             "agent_name": "android0",

@@ -1,6 +1,7 @@
 {
     "name": "MaxDistance",
     "world": "InfiniteForest",
+    "main_agent": "uav0",
     "agents":[
         {
             "agent_name": "uav0",
