@@ -30,10 +30,10 @@
                     "sensor_type": "FollowTask",
                     "configuration": {
                         "ToFollow": "nav0",
-                        "OnlyWithinSight": true,
-                        "FOVRadians": 1.6,
+                        "OnlyWithinSight": false,
+                        "FOVRadians": 5,
                         "TargetHeight": 1,
-                        "MinDistance": 100000
+                        "MinDistance": 18700
                     }
                 }
             ],

@@ -29,8 +29,8 @@
 				{
                     "sensor_type": "DistanceTask",
                     "configuration": {
-                        "Interval": 5,
-                        "GoalDistance": 500,
+                        "Interval": 500,
+                        "GoalDistance": 50000,
                         "MaximizeDistance": true 
                     }
                 }
