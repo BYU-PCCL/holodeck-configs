@@ -22,7 +22,7 @@
                     "configuration": {
                         "DistanceActor": "GoalBuilding",
                         "Interval": 5,
-                        "GoalDistance": 1000,
+                        "GoalDistance": 2200,
                         "MaximizeDistance": false 
                     }
                 }
