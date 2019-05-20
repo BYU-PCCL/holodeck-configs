@@ -1,7 +1,7 @@
 {
    "name": "DefaultWorlds",
    "platform": "Linux",
-   "version": "0.2.1",
+   "version": "0.2.2dev",
    "path": "LinuxNoEditor/Holodeck/Binaries/Linux/Holodeck",
    "worlds": [
       {
