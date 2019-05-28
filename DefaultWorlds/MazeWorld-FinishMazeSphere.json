@@ -20,9 +20,9 @@
 		{
                     "sensor_type": "DistanceTask",
                     "configuration": {
-                        "DistanceActor": "GoalBuilding",
-                        "Interval": 50,
-                        "GoalDistance": 2200,
+                        "DistanceActor": "GoalPost",
+                        "Interval": 0.5,
+                        "GoalDistance": 2,
                         "MaximizeDistance": false 
                     }
                 }
