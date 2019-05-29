@@ -33,7 +33,7 @@
                         "OnlyWithinSight": false,
                         "FOVRadians": 5,
                         "TargetHeight": 1,
-                        "MinDistance": 18700
+                        "MinDistance": 187
                     }
                 }
             ],
