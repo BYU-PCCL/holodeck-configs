@@ -32,7 +32,6 @@
                         "ToFollow": "nav0",
                         "OnlyWithinSight": false,
                         "FOVRadians": 5,
-                        "TargetHeight": 1,
                         "MinDistance": 187
                     }
                 }
