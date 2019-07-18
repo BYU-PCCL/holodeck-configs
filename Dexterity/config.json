@@ -1,0 +1,12 @@
+{
+   "name": "Dexterity",
+   "platform": "Linux",
+   "version": "0.2.2",
+   "path": "LinuxNoEditor/Holodeck/Binaries/Linux/Holodeck",
+   "worlds": [
+      {
+         "name" : "AndroidPlaytime",
+         "pre_start_steps": 2
+      }
+   ]
+}
