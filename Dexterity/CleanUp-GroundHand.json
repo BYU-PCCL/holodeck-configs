@@ -1,5 +1,5 @@
 {
-	"name": "HandCustom",
+	"name": "GroundHand",
 	"world": "CleanUp",
 	"main_agent": "hand0",
 	"agents": [
@@ -35,16 +35,16 @@
 				{
 					"sensor_type": "CleanUpTask",
 					"configuration": {
-						"NumTrash": 5,
+						"NumTrash": 10,
 						"UseTable": false
 					}
 				}
 			],
-			"control_scheme": 0,
+			"control_scheme": 1,
 			"location": [0, -2.10, 0.4],
 			"rotation": [-60, 0, 0]
 		}
 	],
-	"window_width": 1024,
-	"window_height": 1024
+	"window_width": 1280,
+    "window_height": 720
 }

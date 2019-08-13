@@ -1,13 +1,13 @@
 {
-	"name": "LiftBottle",
-	"world": "Grip",
-	"main_agent": "hand0",
+	"name": "HandCustom",
+	"world": "CleanUp",
+	"main_agent": "android0",
 	"agents": [
 		{
-			"agent_name": "hand0",
-			"agent_type": "HandAgent",
-			"sensors": [
-				{
+            "agent_name": "android0",
+            "agent_type": "AndroidAgent",
+            "sensors": [
+                {
                     "sensor_type": "RGBCamera",
                     "socket": "CameraSocket"
                 },
@@ -33,18 +33,17 @@
                     "sensor_type": "PressureSensor"
                 },
 				{
-					"sensor_type": "LocationTask",
+					"sensor_type": "CleanUpTask",
 					"configuration": {
-						"LocationActor": "bottle",
-						"GoalLocation": [0, 0, 1.1],
-						"GoalDistance": 0.1
+						"NumTrash": 10,
+						"UseTable": false
 					}
 				}
-			],
-			"control_scheme": 1,
-			"location": [-0.3, 1.3, 0],
-			"rotation": [120, 0, 0]
-		}
+            ],
+            "control_scheme": 1,
+            "location": [0, -2.10, 0.4],
+			"rotation": [-60, 0, 0]
+        }
 	],
 	"window_width": 1280,
     "window_height": 720
