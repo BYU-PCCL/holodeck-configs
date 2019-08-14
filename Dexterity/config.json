@@ -2,7 +2,7 @@
    "name": "Dexterity",
    "platform": "Linux",
    "version": "0.3.0",
-   "path": "WindowsNoEditor/Holodeck/Binaries/Win64/Holodeck.exe",
+   "path": "LinuxNoEditor/Holodeck/Binaries/Linux/Holodeck",
    "worlds": [
       {
          "name" : "Playroom",
