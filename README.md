@@ -1,6 +1,9 @@
 # holodeck-configs
 Contains the configuration files for Holodeck's downloadable packages.
 
+Please file all issues with the [holodeck](https://github.com/BYU-PCCL/holodeck)
+master project.
+
 ## Documentation
 Documentation for each package and scenario can be found at Holodeck's 
 ReadTheDocs site.
