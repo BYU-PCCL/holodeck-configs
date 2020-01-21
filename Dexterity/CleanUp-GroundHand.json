@@ -1,50 +1,50 @@
 {
-	"name": "GroundHand",
-	"world": "CleanUp",
-	"main_agent": "hand0",
-	"agents": [
-		{
-			"agent_name": "hand0",
-			"agent_type": "HandAgent",
-			"sensors": [
-				{
+    "name": "GroundHand",
+    "world": "CleanUp",
+    "main_agent": "hand0",
+    "agents": [
+        {
+            "agent_name": "hand0",
+            "agent_type": "HandAgent",
+            "sensors": [
+                {
                     "sensor_type": "RGBCamera",
                     "socket": "CameraSocket"
                 },
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
-		        {
+                {
                     "sensor_type": "IMUSensor"
                 },
-				{
+                {
                     "sensor_type": "VelocitySensor"
                 },
-				{
+                {
                     "sensor_type": "JointRotationSensor"
                 },
                 {
                     "sensor_type": "RelativeSkeletalPositionSensor"
                 },
-		        {
+                {
                     "sensor_type": "PressureSensor"
                 },
-				{
-					"sensor_type": "CleanUpTask",
-					"configuration": {
-						"NumTrash": 10,
-						"UseTable": false
-					}
-				}
-			],
-			"control_scheme": 1,
-			"location": [0, -2.10, 0.4],
-			"rotation": [-60, 0, 0]
-		}
-	],
-	"window_width": 1280,
+                {
+                    "sensor_type": "CleanUpTask",
+                    "configuration": {
+                        "NumTrash": 10,
+                        "UseTable": false
+                    }
+                }
+            ],
+            "control_scheme": 1,
+            "location": [0, -2.10, 0.4],
+            "rotation": [-60, 0, 0]
+        }
+    ],
+    "window_width": 1280,
     "window_height": 720
 }

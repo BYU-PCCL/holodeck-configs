@@ -1,53 +1,53 @@
 {
-	"name": "Easy",
-	"world": "CupGame",
-	"main_agent": "hand0",
-	"agents": [
-		{
-			"agent_name": "hand0",
-			"agent_type": "HandAgent",
-			"sensors": [
-				{
+    "name": "Easy",
+    "world": "CupGame",
+    "main_agent": "hand0",
+    "agents": [
+        {
+            "agent_name": "hand0",
+            "agent_type": "HandAgent",
+            "sensors": [
+                {
                     "sensor_type": "RGBCamera",
                     "socket": "CameraSocket"
                 },
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
-		        {
+                {
                     "sensor_type": "IMUSensor"
                 },
-				{
+                {
                     "sensor_type": "VelocitySensor"
                 },
-				{
+                {
                     "sensor_type": "JointRotationSensor"
                 },
                 {
                     "sensor_type": "RelativeSkeletalPositionSensor"
                 },
-		        {
+                {
                     "sensor_type": "PressureSensor"
                 },
-				{
-					"sensor_type": "CupGameTask",
-					"configuration": {
-						"Speed": 1,
-						"NumShuffles": 3
-					}
-				},
-				{
-					"sensor_type": "BallLocationSensor"
-				}
-			],
-			"control_scheme": 1,
-			"location": [0, -2, 0.5],
-			"rotation": [-60, 0, 0]
-		}
-	],
-	"window_width": 1280,
+                {
+                    "sensor_type": "CupGameTask",
+                    "configuration": {
+                        "Speed": 1,
+                        "NumShuffles": 3
+                    }
+                },
+                {
+                    "sensor_type": "BallLocationSensor"
+                }
+            ],
+            "control_scheme": 1,
+            "location": [0, -2, 0.5],
+            "rotation": [-60, 0, 0]
+        }
+    ],
+    "window_width": 1280,
     "window_height": 720
 }

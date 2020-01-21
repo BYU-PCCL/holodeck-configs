@@ -1,9 +1,9 @@
 {
-	"name": "GroundAndroid",
-	"world": "CleanUp",
-	"main_agent": "android0",
-	"agents": [
-		{
+    "name": "GroundAndroid",
+    "world": "CleanUp",
+    "main_agent": "android0",
+    "agents": [
+        {
             "agent_name": "android0",
             "agent_type": "AndroidAgent",
             "sensors": [
@@ -14,37 +14,37 @@
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
-		        {
+                {
                     "sensor_type": "IMUSensor"
                 },
-				{
+                {
                     "sensor_type": "VelocitySensor"
                 },
-				{
+                {
                     "sensor_type": "JointRotationSensor"
                 },
                 {
                     "sensor_type": "RelativeSkeletalPositionSensor"
                 },
-		        {
+                {
                     "sensor_type": "PressureSensor"
                 },
-				{
-					"sensor_type": "CleanUpTask",
-					"configuration": {
-						"NumTrash": 10,
-						"UseTable": false
-					}
-				}
+                {
+                    "sensor_type": "CleanUpTask",
+                    "configuration": {
+                        "NumTrash": 10,
+                        "UseTable": false
+                    }
+                }
             ],
             "control_scheme": 1,
             "location": [0, -2.10, 0.4],
-			"rotation": [-60, 0, 0]
+            "rotation": [-60, 0, 0]
         }
-	],
-	"window_width": 1280,
+    ],
+    "window_width": 1280,
     "window_height": 720
 }

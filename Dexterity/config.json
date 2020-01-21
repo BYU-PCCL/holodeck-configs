@@ -8,15 +8,15 @@
          "name" : "Playroom",
          "pre_start_steps": 2
       },
-	  {
+     {
          "name" : "CupGame",
          "pre_start_steps": 2
       },
-	  {
+     {
          "name" : "CleanUp",
          "pre_start_steps": 2
       },
-	  {
+     {
          "name" : "Grip",
          "pre_start_steps": 2
       }

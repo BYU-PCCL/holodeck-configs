@@ -14,19 +14,19 @@
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
                 {
                     "sensor_type": "VelocitySensor"
                 },
-				{
+                {
                     "sensor_type": "CollisionSensor"
                 },
-				{
+                {
                     "sensor_type": "IMUSensor"
                 },
-				{
+                {
                     "sensor_type": "DistanceTask",
                     "configuration": {
                         "Interval": 5,

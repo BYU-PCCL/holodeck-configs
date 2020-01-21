@@ -14,25 +14,25 @@
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
-		        {
+                {
                     "sensor_type": "IMUSensor"
                 },
-				{
+                {
                     "sensor_type": "VelocitySensor"
                 },
-				{
+                {
                     "sensor_type": "JointRotationSensor"
                 },
                 {
                     "sensor_type": "RelativeSkeletalPositionSensor"
                 },
-		        {
+                {
                     "sensor_type": "PressureSensor"
                 },
-				{
+                {
                     "sensor_type": "DistanceTask",
                     "configuration": {
                         "Interval": 10,

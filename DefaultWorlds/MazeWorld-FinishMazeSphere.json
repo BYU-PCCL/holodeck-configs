@@ -14,10 +14,10 @@
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
-				{
+                {
                     "sensor_type": "DistanceTask",
                     "configuration": {
                         "GoalActor": "GoalPost",

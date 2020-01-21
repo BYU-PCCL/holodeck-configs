@@ -14,33 +14,33 @@
                 {
                     "sensor_type": "LocationSensor"
                 },
-				{
+                {
                     "sensor_type": "OrientationSensor"
                 },
-		        {
+                {
                     "sensor_type": "IMUSensor"
                 },
-				{
+                {
                     "sensor_type": "VelocitySensor"
                 },
-				{
+                {
                     "sensor_type": "JointRotationSensor"
                 },
                 {
                     "sensor_type": "RelativeSkeletalPositionSensor"
                 },
-		        {
+                {
                     "sensor_type": "PressureSensor"
                 },
-				{
-					"sensor_type": "LocationTask",
+                {
+                    "sensor_type": "LocationTask",
                     "socket": "head",
-					"configuration": {
-						"GoalLocation": [0, 0, 1.4],
-						"GoalDistance": 0.1,
-						"HasTerminal": false
-					}
-				}
+                    "configuration": {
+                        "GoalLocation": [0, 0, 1.4],
+                        "GoalDistance": 0.1,
+                        "HasTerminal": false
+                    }
+                }
             ],
             "control_scheme": 1,
             "location": [0.0, 0.0, 0.0],
