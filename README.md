@@ -4,6 +4,9 @@ Contains the configuration files for Holodeck's downloadable packages.
 Please file all issues with the [holodeck](https://github.com/BYU-PCCL/holodeck)
 master project.
 
+**NOTE:** This repo uses a different branching scheme. The master branch is equivalent to the develop branch
+in other repos (ie the bleeding edge of development). If you want the configs for a specific version, see the tags.
+
 ## Documentation
 Documentation for each package and scenario can be found at Holodeck's 
 ReadTheDocs site.
