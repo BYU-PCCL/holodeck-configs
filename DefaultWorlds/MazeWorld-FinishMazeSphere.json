@@ -17,6 +17,12 @@
                 {
                     "sensor_type": "OrientationSensor"
                 },
+				{
+                    "sensor_type": "RangeFinder",
+                    "configuration": {
+                        "LaserCount": 5
+                    }
+                },
                 {
                     "sensor_type": "DistanceTask",
                     "configuration": {

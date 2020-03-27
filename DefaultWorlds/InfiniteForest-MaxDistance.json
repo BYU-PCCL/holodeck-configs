@@ -29,6 +29,12 @@
                 {
                     "sensor_type": "AbuseSensor"
                 },
+				{
+                    "sensor_type": "RangeFinderSensor",
+                    "configuration": {
+                        "LaserCount": 5
+                    }
+                },
                 {
                     "sensor_type": "DistanceTask",
                     "configuration": {
