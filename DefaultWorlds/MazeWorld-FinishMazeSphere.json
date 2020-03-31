@@ -18,6 +18,12 @@
                     "sensor_type": "OrientationSensor"
                 },
                 {
+                    "sensor_type": "RangeFinderSensor",
+                    "configuration": {
+                        "LaserCount": 5
+                    }
+                },
+                {
                     "sensor_type": "DistanceTask",
                     "configuration": {
                         "GoalActor": "GoalPost",
