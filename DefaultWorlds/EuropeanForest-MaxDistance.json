@@ -27,6 +27,9 @@
                     "sensor_type": "IMUSensor"
                 },
                 {
+                    "sensor_type": "AbuseSensor"
+                },
+                {
                     "sensor_type": "DistanceTask",
                     "configuration": {
                         "Interval": 5,
